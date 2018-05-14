@@ -5,10 +5,12 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.design.widget.TabLayout;
 import android.os.Bundle;
-import android.widget.TableLayout;
-import android.widget.Toolbar;
 
 import java.util.ArrayList;
+
+import e.subsh.fragment.Fragments.Fragment1;
+import e.subsh.fragment.Fragments.Fragment2;
+import e.subsh.fragment.Fragments.PageAdapter;
 
 public class MainActivity extends AppCompatActivity {
 

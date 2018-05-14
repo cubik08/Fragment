@@ -1,4 +1,4 @@
-package e.subsh.fragment;
+package e.subsh.fragment.Fragments;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,6 +9,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import e.subsh.fragment.R;
 
 public class Fragment1 extends Fragment {
 

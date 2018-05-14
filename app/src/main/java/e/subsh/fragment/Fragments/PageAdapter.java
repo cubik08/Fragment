@@ -1,4 +1,4 @@
-package e.subsh.fragment;
+package e.subsh.fragment.Fragments;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
