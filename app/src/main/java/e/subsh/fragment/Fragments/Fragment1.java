@@ -38,6 +38,7 @@ public class Fragment1 extends Fragment {
                              @NonNull Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_fragment1,container,false);
 
+
         context = container.getContext();
         btnAgregar = v.findViewById(R.id.btAgregar);
         edtArtista = v.findViewById(R.id.edtArtista);
