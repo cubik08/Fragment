@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -32,6 +33,13 @@ public class AlbumAdaptador extends RecyclerView.Adapter<AlbumAdaptador.AlbumVie
         holder.txtvNombreArtista.setText(album.getArtista());
         holder.txtvNombreAlbum.setText(album.getNombre());
         holder.imgAlbum.setImageResource(album.getFoto());
+
+        holder.imgAlbum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(v.getContext(),"Nombre Album " + album.getNombre(), Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override
